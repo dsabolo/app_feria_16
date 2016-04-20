@@ -28,16 +28,16 @@
         <div class="collapse navbar-collapse">
           <div class="thumbnail tile tile-medium tile-buscador">
             <a href="#"  data-title="Buscador BP" data-lead="Buscador BP" data-bg="#0096D5" data-app="app_buscador" id="lnkBuscador">
-              <img src="images/twittertile.png">
-              <h3>
-              Buscador BP
-              </h3>
+              <img src="images/BUSCADORBEPE.png">
+              <h2>
+              Buscador
+              </h2>
             </a>
           </div>
          
           <div class="thumbnail tile tile-medium tile-canal">
             <a href="#"  data-title="Canal BP" data-lead="Videos BP" data-bg="#DDA333" data-app="app_canal">
-              <img src="images/twittertile.png">
+              <img src="images/CANALBP.png">
               <h2>
               Canal BP
               </h2>
@@ -45,7 +45,7 @@
           </div>
           <div class="thumbnail tile tile-medium tile-radio">
             <a href="#"  data-title="Radio BP" data-lead="Radio BP" data-bg="#79368C" data-app="app_radio">
-              <img src="images/twittertile.png">
+              <img src="images/RADIOBEPE.png">
               <h2>
               Radio BP
               </h2>
@@ -54,7 +54,7 @@
 
          <div class="thumbnail tile tile-medium tile-revista">
             <a href="#" data-title="Revista BP" data-lead="Revista BP" data-bg="#C43015" data-app="app_revista">
-              <img src="images/twittertile.png">
+              <img src="images/REVISTABEPE.png">
               <h2>
               Revista BP
               </h2>

@@ -12,6 +12,9 @@
 		opacity: 1 !important;
 
 	}
+	.tile img {
+		margin-bottom: 10px
+	}
 	#wrapper {
 		padding-left: 255px;
 	}
