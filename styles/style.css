@@ -15,6 +15,14 @@
 	.tile img {
 		margin-bottom: 10px
 	}
+	.tile h2	{
+		font-size: 19px;
+		text-transform: uppercase;
+		margin-top: 5px;
+	}
+	.tile img {
+		width: 100% !important
+	}
 	#wrapper {
 		padding-left: 255px;
 	}
@@ -37,7 +45,7 @@
 		background: rgba(0,0,0,0.1)
 	}
 	body {
-		background-color: #3498db;
+		background-color: #fff;
 		background-image: url('../images/generalShadow3.png');
 		background-size: cover;
 		-webkit-transition:background 1s;
@@ -138,12 +146,21 @@
 }
 #radioCnt {
 	position: absolute;
-	top:50px;
 	right: 160px;
+	top:50px;
 	width: 300px;
 
 	
 }
 #radioCnt p {
 	padding: 5px
+}
+
+
+input.form-control, select , option {
+	color:#000 !important;
+}
+.error {
+	border:1px solid red;
+	background: #ccc
 }

@@ -27,7 +27,7 @@ jQuery("#modalClose").click(function(e){
 
 jQuery(document).ready(function(){
 	jQuery("#modal").fadeOut();
-	//jQuery("#lnkBuscador").click();
+	jQuery("#lnkVideo").click();
 	var swiper = new Swiper('.swiper-container', {
 		pagination: '.swiper-pagination',
 		slidesPerView: 3,
@@ -46,8 +46,6 @@ jQuery(document).ready(function(){
 	});
 
 });
-
-
 
 
 function app_revista(){
@@ -190,3 +188,11 @@ function showPdf(pdfUrl){
 	var pdf = 'Cargando...<embed src="'+pdfUrl+'" width=”600″ height=”500″ alt=”pdf” pluginspage=”http://www.adobe.com/products/acrobat/readstep2.html”></embed>';
 	jQuery("#modalCnt").html(pdf);
 }
+
+
+
+function validEmail(e) {
+    var filter = /^\s*[\w\-\+_]+(\.[\w\-\+_]+)*\@[\w\-\+_]+\.[\w\-\+_]+(\.[\w\-\+_]+)*\s*$/;
+    return String(e).search (filter) != -1;
+}
+

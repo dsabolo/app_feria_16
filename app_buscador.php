@@ -8,21 +8,21 @@
 <!-- Text input-->
 <div class="form-group">
 <label>Nombre</label>
-  <input id="nombre" name="nombre" type="text" class="form-control input-md" required="">
+  <input id="nombre" name="nombre" type="text" class="form-control input-md">
 
 </div>
 
 <!-- Text input-->
 <div class="form-group">
 	<label>Email</label>	
-  <input id="email" name="email" type="mail" class="form-control input-md" required="">
+  <input id="email" name="email" type="mail" class="form-control input-md">
 </div>
 
 <!-- Select Basic -->
 <div class="form-group">
 	<label>Provincia</label>
-    <select id="selectbasic" name="selectbasic" class="form-control">
-      <option value="" selected>Provincia</option>
+    <select id="provincia" name="selectbasic" class="form-control">
+      <option value="all" selected>Provincia</option>
       <option value="2">Option two</option>
     </select>
 </div>
@@ -35,10 +35,37 @@
 
 <!-- Button -->
 <div class="form-group">
-    <button id="singlebutton" name="singlebutton" class="btn btn-primary">Buscar</button>
+    <button id="btnBuscar" name="singlebutton" class="btn btn-primary">Buscar</button>
 </div>
 
 </fieldset>
 </form>
 
 </div>
+<script type="text/javascript">
+  jQuery("#btnBuscar").click(function(e){
+    var error = false;
+    if(jQuery('#nombre').val()==""){
+      console.log("Debe completar el campo nombre");
+      jQuery("#nombre").addClass("error");
+      error = true;
+    }
+    if(validEmail(jQuery('#email').val())==false){
+      console.log("Debe completar el email");
+      jQuery("#email").addClass("error");
+      error = true;
+    }
+
+    if(error==false){
+      console.log("Iniciando busqueda en directorio");
+    }
+   
+   return false;
+  });
+
+function validEmail(e) {
+    var filter = /^\s*[\w\-\+_]+(\.[\w\-\+_]+)*\@[\w\-\+_]+\.[\w\-\+_]+(\.[\w\-\+_]+)*\s*$/;
+    return String(e).search (filter) != -1;
+}
+
+</script>
