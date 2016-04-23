@@ -6,7 +6,8 @@
 		-webkit-transition:all 0.2s;
 		-moz-transition:all 0.2s;
 		-o-transition:all 0.2s;
-		transition:all 0.2s
+		transition:all 0.2s;
+
 	}
 	.tile:hover, .tile.active {
 		opacity: 1 !important;
@@ -46,7 +47,7 @@
 	}
 	body {
 		background-color: #fff;
-		background-image: url('../images/generalShadow3.png');
+		background-image: url('../images/bgAlt.png');
 		background-size: cover;
 		-webkit-transition:background 1s;
 		-moz-transition:background 1s;
@@ -59,6 +60,8 @@
 	#wrapper-container .container h1 {
 		font-size:80px;
 		color:#fff;
+		font-weight: 100 !important;
+		text-transform: uppercase;
 	}
 	#wrapper-container .container * {
 		color:#fff;
@@ -164,3 +167,4 @@ input.form-control, select , option {
 	border:1px solid red;
 	background: #ccc
 }
+

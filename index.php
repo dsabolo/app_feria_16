@@ -26,26 +26,27 @@
   <div id="mainNav" class="navbar navbar-side navbar navbar-fixed-top" role="navigation">
       
         <div class="collapse navbar-collapse">
-          <!--div class="thumbnail tile tile-medium tile-buscador">
-            <a href="#"  data-title="Buscador BP" data-lead="Buscador BP" data-bg="#0096D5" data-app="app_buscador" id="lnkBuscador">
-              <img src="images/BUSCADORBEPE_TXT.png">
-            </a>
-          </div-->
+          
          
           <div class="thumbnail tile tile-medium tile-canal">
-            <a href="#" id="lnkVideo" data-title="Canal BEPÉ" data-lead="Videos BEPÉ" data-bg="#fff" data-app="app_canal">
+            <a href="#" id="lnkVideo" data-title="Canal BEPÉ" data-lead="Videos BEPÉ" data-bg="#ff9900" data-app="app_canal">
               <img src="images/CANALBEPE_TXT.png">             
             </a>
           </div>
           <div class="thumbnail tile tile-medium tile-radio">
-            <a href="#"  data-title="Radio BEPÉ" data-lead="Radio BEPÉ" data-bg="#fff" data-app="app_radio">
+            <a href="#"  data-title="Radio BEPÉ" data-lead="Radio BEPÉ" data-bg="#660099" data-app="app_radio">
               <img src="images/RADIOBEPE_TXT.png">
             </a>
           </div>
 
          <div class="thumbnail tile tile-medium tile-revista">
-            <a href="#" data-title="Revista BEPÉ" data-lead="Revista BEPÉ" data-bg="#fff" data-app="app_revista">
+            <a href="#" data-title="Revista BEPÉ" data-lead="Revista BEPÉ" data-bg="#ff0000" data-app="app_revista">
               <img src="images/REVISTABEPE_TXT.png">
+            </a>
+          </div>
+          <div class="thumbnail tile tile-medium tile-buscador">
+            <a href="#"  data-title="Buscador BEPÉ" data-lead="Buscador BEPÉ" data-bg="#0096D5" data-app="app_buscador" id="lnkBuscador">
+              <img src="images/BUSCADORBEPE_TXT.png">
             </a>
           </div>
   
