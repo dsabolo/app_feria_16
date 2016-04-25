@@ -66,10 +66,10 @@
     }
     if(error==false){
 
-      jQuery("#searchResult").html("Iniciando busqueda en directorio");
+      jQuery("#searchResult").html("Iniciando busqueda en directorio...");
 
 
-      jQuery.get('app_buscador_search.php?province='+jQuery('#provincia').val()+'&city='+jQuery('#ciudad').val(),function(data){
+      jQuery.get('app_buscador_search.php?name='+jQuery('#nombre').val()+'&email='+jQuery('#email').val()+'&province='+jQuery('#provincia').val()+'&city='+jQuery('#ciudad').val(),function(data){
         if(data){
           jQuery("#searchResult").html(data);
           var swiper = new Swiper('.swiper-container', {
